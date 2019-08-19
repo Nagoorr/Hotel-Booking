@@ -17,4 +17,11 @@ right click on application select runas and runonserver options
 
 
  http://localhost:8080/booking/homepage
-
+ 
+ Technologies Used:
+  Spring Mvc
+  Jpa Hibernate
+  MySql
+  Html
+  Css
+  Bootstrap
