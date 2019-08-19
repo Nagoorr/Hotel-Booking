@@ -1,0 +1,92 @@
+Unit Test Cases:
+
+User:
+
+UserRegister:
+
+ Positive Scenario:
+    1.filled all the details correctly and clicked on register button it is registered succesfully in database
+ Negative Scenario:
+    1.Entered only some fields and submitted its not accepting or registering
+
+UserLogin:
+
+   Positive Scenario:
+    1.Entered Username and Password correctly submitted succesfully
+   Negative Scenario:
+    1.Entered wrong username and wrong password failed to show home page
+    2.Entered correct username and wrong password , wrong user name nad correct password both failed to show homepage
+    3.Entered only username or only password not submitted
+    4.Subitted without entering anything failed  to submit
+
+UserUpdate:
+
+    Positive Scenario:
+    1.Updated all feilds based on username, updated successfully
+     Negative Scenario:
+    1.Entered Wrong Username and tried to update every field ,update failed
+    2.without entering username i tried to update feilds not updated
+
+UserDelete:
+
+   Positive Scenario:
+    1.Entered Username and Password information is deactivated successfully in database
+   Negative Scenario:
+    1.Entered wrong username and wrong password failed to delete
+    2.Entered correct username and wrong password , wrong user name nad coorect password both failed to delete
+    3.Entered only username or only password not submitted
+    4.Subitted without entering anything failed  to submit
+    5.after deleting tried to login failed
+
+Hotel:
+ 
+  Add Hotel:
+
+   Positive Scenario:
+    1.Entered all feilds and submitted data entered successfully into database
+   Negative Scenario:
+    1.Entered only some fields and tried to submit failed
+
+ Update Hotel:
+  
+   Positive Scenario:
+    1.update hotel will works based on hotel name
+    2.entered correct hotel name and updated all the fields
+   Negative Scenario:
+    1.entered wrong username and tried to update the data failed
+    2.entered all feilds except username failed to update
+    3.entered correct username and updated only some feilds
+
+ Delete Hotel:
+  
+  Positive Scenario:
+    1.based on hotel name information will be deactivated from the database
+    2.Entered correct hotel name and deleted succesfully
+
+  Negative Scenario:
+    1.Entered wrong hotelname tried to delete failed to delete
+    2.without entering hotel name tried to submit failed to submit and delete 
+    3.After delete tried to fetch hotel details failed
+
+  GetHotels By City,Rooms,Date:
+   
+    Positive Scenario:
+    1.Entered cityname,date,rooms hotel details fetched from database
+    
+    Negative Scenarios:
+    1.Entered only city tried to search failed
+    2.Entered wrong city name tried no hotels found
+    3.Entered rooms which are out of particular hotel shows no hotels found
+
+  Ratings and Reviews:
+   
+  add ratings and reviews:
+    Positive Scenario:
+    1.user can add ratings for the hotel
+    Negative Scenario:
+    1.failed to make a relation between user,ratings and reviews
+
+     
+
+  
+     

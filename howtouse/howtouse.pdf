@@ -1,0 +1,19 @@
+How to use the application:
+
+1.type 'http://localhost:8080/booking/homepage' url
+2.home page is displayed ,in navigation bar to buttons are their user,hotel
+3.click on user it will redirected to login page
+4.In login page in navigation bar select register
+5.it will redirect to register page and fill the details 
+6.click on submit,registered succesfully means it will redirect to login page
+7.else failed means it will stay on same page
+8.In login page enter the username and password click on submit
+9.it will redirect to home page
+10.again click on user select update, based on username update the details click on update,it will redirect to home page else it will remains on same page
+11.now select delete and enter username and password submit it will redirect to homepage the details are deactivated in database
+12.select hotel ,addhotel page enter the details of hotel and click on submit redirects to homepage
+13.update the details of hotel based on hotel name,update succesful means redirects to homepage else remains on same page
+14.in home page enter the city,date,rooms required and click on search option it will display details of hotels
+15.delete the hotel based on hotel name 
+16.add the reviews and ratings for hotel
+17.filter the hotels based on requirement
