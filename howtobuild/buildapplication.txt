@@ -1,0 +1,20 @@
+Read me information on building and starting the application
+
+1.Download the zipfolder of application from github
+2.Extract the folder and save in local machine
+3.open eclipse,click on File in navigation bar
+4.select import option,search maven
+5.select existing maven projects
+6.In Root Directory browse for the path where the application folder is saved 
+7.click on finish
+
+
+
+To Start the application:
+
+use apache tomcat server version 8.5
+right click on application select runas and runonserver options
+
+
+ http://localhost:8080/booking/homepage
+
